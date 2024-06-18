@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSP - Egresados 2025</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <!-- Hoja de estilo para pantallas hasta 370px de ancho 
+    <link rel="stylesheet" href="./assets/css/estilos_upto_400.css" media="screen and (max-width: 400px)"> -->
+
+    <!-- Hoja de estilo para pantallas hasta 768px de ancho 
+    <link rel="stylesheet" href="./assets/css/estilos_upto_768.css"
+        media="screen and (min-width: 401px) and (max-width: 768px)"> -->
+
+    <!-- Hoja de estilo para pantallas hasta 1024px de ancho 
+    <link rel="stylesheet" href="./assets/css/estilos_upto_1024.css"
+        media="screen and (min-width: 769px) and (max-width: 1024px)"> -->
+
+    <!-- Hoja de estilo por defecto para pantallas mayores a 1024px de ancho 
+    <link rel="stylesheet" href="./assets/css/estilos.css" media="screen and (min-width: 1025px)"> -->
+    <!-- link rel="stylesheet" href="./assets/css/estilos_form.css" -->
+    <link rel="shortcut icon" href="./assets/img/logo-ST-T.png" type="image/png">
+    <!-- Stylesheet temporal para mostrar grid de fotos-->
+    <link rel="stylesheet" href="./assets/css/grid.css">
+</head>
+
+<body class="nunito-sans-700">
+    <header>
+        <!-- Header desde JS -->
+        <div class="container-header" id="header">
+        </div>
+    </header>
+
+    <main>
+        <div class="maintopmargin">
+        </div>
+        <h1>Camperas y Chombas / Remeras</h1>
+
+            <div id="app">
+                <div class="container-productos">
+                    <div class="tarjeta-productos" v-for="elemento in datos" v-bind:key="elemento.id">
+                        <div>
+                            <img width="400" v-bind:src="elemento.Foto" alt="Foto del producto">
+                            <p>Selección: {{elemento.Selección}}</p>
+                            <p>Modelo: {{elemento.Modelo}}</p>
+                            <p>Colores: {{elemento.Colores}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        
+    </main>
+
+  
+
+   
+
+    <!-- Scripts JS de la página -->
+    <script src="./assets/js/header.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="./assets/js/electro.js"></script>
+    <script src="./assets/js/footer.js"></script>
+    <script src="./assets/js/wa.js"></script>
+
+</body>
+
+</html>

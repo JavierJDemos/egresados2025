@@ -1,0 +1,114 @@
+[
+    {
+        "Foto": "./assets/img/Camperas/campera10-color10.png",
+        "id": 1,
+        "Selección": "1",
+        "Modelo": "10",
+        "Colores": "modelo 10"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera10-color05.png",
+        "id": 2,
+        "Selección": "1",
+        "Modelo": "10",
+        "Colores": "modelo 05"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera10-color03.png",
+        "id": 3,
+        "Selección": "1",
+        "Modelo": "10",
+        "Colores": "modelo 03"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera10-color07.png",
+        "id": 4,
+        "Selección": "1",
+        "Modelo": "10",
+        "Colores": "modelo 07"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera05-color03.png",
+        "id": 5,
+        "Selección": "2",
+        "Modelo": "05",
+        "Colores": "modelo 10"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera05-color05.png",
+        "id": 6,
+        "Selección": "2",
+        "Modelo": "05",
+        "Colores": "modelo 05"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera05-color03.png",
+        "id": 7,
+        "Selección": "2",
+        "Modelo": "05",
+        "Colores": "modelo 03"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera05-color07.png",
+        "id": 8,
+        "Selección": "2",
+        "Modelo": "05",
+        "Colores": "modelo 07"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera03-color10.png",
+        "id": 9,
+        "Selección": "3",
+        "Modelo": "03",
+        "Colores": "modelo 10"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera03-color05.png",
+        "id": 10,
+        "Selección": "3",
+        "Modelo": "03",
+        "Colores": "modelo 05"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera03-color03.png",
+        "id": 11,
+        "Selección": "3",
+        "Modelo": "03",
+        "Colores": "modelo 03"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera03-color07.png",
+        "id": 12,
+        "Selección": "3",
+        "Modelo": "03",
+        "Colores": "modelo 07"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera07-color10.png",
+        "id": 13,
+        "Selección": "4",
+        "Modelo": "07",
+        "Colores": "modelo 10"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera07-color05.png",
+        "id": 14,
+        "Selección": "4",
+        "Modelo": "07",
+        "Colores": "modelo 05"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera07-color03.png",
+        "id": 15,
+        "Selección": "4",
+        "Modelo": "07",
+        "Colores": "modelo 03"
+    },
+    {
+        "Foto": "./assets/img/Camperas/campera07-color07.png",
+        "id": 16,
+        "Selección": "4",
+        "Modelo": "07",
+        "Colores": "modelo 07"
+    }
+]
